@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,italic,700,700italic,900,900italic&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Kaisei+Tokumin:regular,500,700,800&display=swap");
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Black.woff2") format("woff2"),
+    url("../fonts/Nunito-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Bold.woff2") format("woff2"),
+    url("../fonts/Nunito-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Regular.woff2") format("woff2"),
+    url("../fonts/Nunito-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Serif", "Lora", serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  text-align: justify;
+}
+
+.menu-list {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: blue;
+}
+
+.h1 {
+  font-family: "Roboto", "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  font-style: italic;
+  text-decoration: underline;
+  text-shadow: 10px 5px 5px rgb(224, 149, 149);
+}
+
+.h2 {
+  font-family: "Lora", "PT Serif", serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.span {
+  font-family: "Pacifico", serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.5;
+  color: crimson;
+}
+
+.list {
+  font-family: "Nunito", sans-serif;
+  font-style: oblique;
+  text-decoration: underline;
+  line-height: 2;
+  color: brown;
+}
+
+.text-one {
+  font-family: "Playfair Display", sans-serif;
+  line-height: 1.5;
+}
+
+.text-two {
+  font-family: "Kaisei Tokumin", sans-serif;
+  font-weight: 500;
+}
+
+.text-three {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.li {
+  text-decoration: line-through; 
+}
+.next {
+  font-family: "Pacifico", serif;
+  text-align: center;
+  text-decoration: underline;  
+}
+
+.mark {
+  text-transform: capitalize;
+  color: cyan  
+}
+
+.inform {
+  font-size: 32px;
+  color: red;
+}
+
+.menu-list {
+  white-space: nowrap;  
+}
+
+.menu-list li {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+
